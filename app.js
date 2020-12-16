@@ -1,3 +1,5 @@
+/* =================== script untuk spam chat ======================= */
+
 const puppeteer = require("puppeteer");
 
 async function scrape(url) {
@@ -20,24 +22,26 @@ async function scrape(url) {
 scrape("https://web.whatsapp.com");
 
 
-// const { Client } = require('whatsapp-web.js');
-// var qrcode = require('qrcode-terminal');
-// const client = new Client();
+/* ====================== script untuk balas chat secara otomatis =========================== */
 
-// client.on('qr', (qr) => {
-//     // Generate and scan this code with your phone
-//     console.log('QR RECEIVED', qr);
-//     qrcode.generate(qr);
-// });
+          // const { Client } = require('whatsapp-web.js');
+          // var qrcode = require('qrcode-terminal');
+          // const client = new Client();
 
-// client.on('ready', () => {
-//     console.log('Client is ready!');
-// });
+          // client.on('qr', (qr) => {
+          //     // Generate and scan this code with your phone
+          //     console.log('QR RECEIVED', qr);
+          //     qrcode.generate(qr);
+          // });
 
-// client.on('message', msg => {
-//     if (msg.body == '!ping') {
-//         msg.reply('Silahkan tinggal kan pesan, nanti di balas jika bos saya aktif di wa :)');
-//     }
-// });
+          // client.on('ready', () => {
+          //     console.log('Client is ready!');
+          // });
 
-// client.initialize();
+          // client.on('message', msg => {
+          //     if (msg.body == '!ping') {
+          //         msg.reply('Silahkan tinggal kan pesan, nanti di balas jika bos saya aktif di wa :)');
+          //     }
+          // });
+
+          // client.initialize();
